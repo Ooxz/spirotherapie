@@ -1,8 +1,11 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
+// import expirez from "../images/expirez.png"
 
 function Home() {
 	return (
-	  <h1>Home page goes here</h1>
+		<div className="home">
+		</div>
+	  
 	)
   }
 
