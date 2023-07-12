@@ -1,17 +1,21 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
+import portrait from '../images/portrait.jpg'
 
 function About() {
 	return (
 		<div className="about">
-			<h1>SPIROTHERAPIE</h1>
-			<p>La spirothérapie  s'inspire des pranayamas , les techniques respiratoires  du yoga de prana “respiration “ et Yama “ maîtrise” mais aussi d’autres méthodes issues d’autres cultures ancestrales ou modernes.
-La spirotherapie permet de prendre soin de soi à travers la respiration et sa rééducation, d'améliorer à la fois l'équilibre physique , émotionnel et mental .Cela permet de travailler sur le métabolisme tout en conservant le côté méditatif .
-Concept imaginé par samuel ganes en 2015 avec plus de 50 techniques respiratoires.
-C'est la plus basique des fonctions corporelles .Et pourtant , en la travaillant un peu la respiration ets l'outil le plus pratique  et efficace pour éliminer les graisses , changer le PH du corps , rééquilibrer le microbiote 
-80% du gras éliminés des toxines  éliminés par notre corps chaque jour l’est sous forme gazeuse  et provient des expirations .les 20 % restants par nos fluides corporels  par notre corps
-5 minutes de respiration profonde  suffisent  à augmenter le taux d'oxygène  et à réduire le taux de dioxyde de carbone dans le sang , permettant  au PH  de redevenir alcalin  pour les 4 heures suivantes  avec réduction de l'inflammation 
-Une séance de respiration profonde entraîne une dépense calorique équivalente  à celle d’une balade de 20 minutes à vélo 
+			<h1>Mon itinéraire</h1>
+			<div className="about-text">
+			<p>Passionnée de voyage , de transmission et de la compréhension de l'être humain 
+			   Après 32 ans de riches expériences dans le domaine touristique avec un terrain de jeu privilégié 
+			   ”le Canada et le grand Nord“, développement création  de concept touristique , conference, commercialisation, 
+			   analyse des marchés  groupe Evolution vers la  transmission du bien être , du bien vieillir de la prévention en 
+			   santé ,formation en  Yoga Thérapie avec Stephanie Billard formation 
+			   en spirotherapie  et mobilité sur chaises avec Samule Ganes 
+			   création de la société  Inspir’ BY pat
 </p>
+<img src={portrait}></img>
+</div>
 		</div>
 	)
   }
