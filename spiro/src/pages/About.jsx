@@ -3,10 +3,10 @@ import portrait from '../images/portrait.jpg'
 
 function About() {
 	return (
-		<div className="about">
-			<h1>Mon itinéraire</h1>
-			<div className="about-text">
-			<p>Passionnée de voyage , de transmission et de la compréhension de l'être humain 
+		<div className="mt-10 p-2">
+			<h1 className="font-bold text-xl">Mon itinéraire</h1>
+			<div className="mt-10 flex">
+			<p className="w-80">Passionnée de voyage , de transmission et de la compréhension de l'être humain. 
 			   Après 32 ans de riches expériences dans le domaine touristique avec un terrain de jeu privilégié 
 			   ”le Canada et le grand Nord“, développement création  de concept touristique , conference, commercialisation, 
 			   analyse des marchés  groupe Evolution vers la  transmission du bien être , du bien vieillir de la prévention en 
@@ -14,7 +14,7 @@ function About() {
 			   en spirotherapie  et mobilité sur chaises avec Samule Ganes 
 			   création de la société  Inspir’ BY pat
 </p>
-<img src={portrait}></img>
+<img className="w-80" src={portrait}></img>
 </div>
 		</div>
 	)

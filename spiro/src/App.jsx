@@ -9,10 +9,12 @@ import { Routes, Link, Route } from 'react-router-dom'
 function App() {
 	return (
 	  <div>
-		<Link to="/">Acceuil</Link>
-		<Link to="/spirotherapie">La spirothérapie</Link>
-		<Link to="/about">Mon parcours</Link>
-		<Link to="/services">Mes services</Link>
+		<div className="flex gap-2 justify-center ">
+		<Link className="hover:underline" to="/">Acceuil</Link>
+		<Link className="hover:underline" to="/spirotherapie">La spirothérapie</Link>
+		<Link className="hover:underline" to="/about">Mon itinéraire</Link>
+		<Link className="hover:underline" to="/services">Mes services</Link>
+		</div>
 		<Routes>
 			<Route exact path ="/" element={<Home />}/>
 			<Route path ="/spirotherapie" element={<Spirotherapie />}/>
