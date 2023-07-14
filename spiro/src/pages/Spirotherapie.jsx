@@ -2,9 +2,9 @@
 
 function Spirotherapie() {
 	return (
-		<div className="text-white">
-			<h1>SPIROTHERAPIE</h1>
-			<p>La spirothérapie  s'inspire des pranayamas , les techniques respiratoires  du yoga de prana “respiration “ et Yama “ maîtrise” mais aussi d’autres méthodes issues d’autres cultures ancestrales ou modernes.
+		<div className="mt-10 p-2">
+			<h1 className="font-bold text-xl">SPIROTHERAPIE</h1>
+			<p className="mt-10 flex">La spirothérapie  s'inspire des pranayamas , les techniques respiratoires  du yoga de prana “respiration “ et Yama “ maîtrise” mais aussi d’autres méthodes issues d’autres cultures ancestrales ou modernes.
 La spirotherapie permet de prendre soin de soi à travers la respiration et sa rééducation, d'améliorer à la fois l'équilibre physique , émotionnel et mental .Cela permet de travailler sur le métabolisme tout en conservant le côté méditatif .
 Concept imaginé par samuel ganes en 2015 avec plus de 50 techniques respiratoires.
 C'est la plus basique des fonctions corporelles .Et pourtant , en la travaillant un peu la respiration est l'outil le plus pratique  et efficace pour éliminer les graisses , changer le PH du corps , rééquilibrer le microbiote 

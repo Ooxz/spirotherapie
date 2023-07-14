@@ -3,7 +3,7 @@ import expirez from "../images/expirez.png"
 
 function Home() {
 	return (
-		<div className="home">
+		<div className="flex">
 			<img src={expirez}></img>
 		</div>
 	)

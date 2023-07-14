@@ -2,9 +2,9 @@
 
 function Services() {
 	return (
-		<div className="about">
-			<h1>SERVICES</h1>
-			<ul>
+		<div className="mt-10 p-2">
+			<h1 className="font-bold text-xl">SERVICES</h1>
+			<ul className="mt-10">
 				<li>En visio et en ligne</li>
 				<li>A domicile à Biarritz</li>
 				<li>Cours 30 minutes 7 euros par personne (groupe de minimum 6 personnes)</li>
