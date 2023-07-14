@@ -1,9 +1,11 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
+import inspir from '../images/inspir.png'
 
 function Services() {
 	return (
 		<div className="mt-10 p-2">
-			<h1 className="font-bold text-xl">SERVICES</h1>
+			<h1 className="font-bold text-xl text-center">SERVICES</h1>
+			<div className="flex items-center">
 			<ul className="mt-10">
 				<li>En visio et en ligne</li>
 				<li>A domicile à Biarritz</li>
@@ -13,6 +15,8 @@ function Services() {
 				<li>Sur devis pour les entreprises</li>
 				<li>Les évènements : </li>
 			</ul>
+			<img className="w-90 ml-5" src={inspir}></img>
+			</div>
 		</div>
 	)
   }

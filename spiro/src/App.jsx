@@ -10,7 +10,7 @@ function App() {
 	return (
 	  <div>
 		<div className="flex gap-2 justify-center ">
-		<Link className="hover:underline" to="/">Acceuil</Link>
+		<Link className="hover:underline" to="/">Accueil</Link>
 		<Link className="hover:underline" to="/spirotherapie">La spirothérapie</Link>
 		<Link className="hover:underline" to="/about">Mon itinéraire</Link>
 		<Link className="hover:underline" to="/services">Mes services</Link>
