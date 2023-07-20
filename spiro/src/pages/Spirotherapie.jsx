@@ -3,12 +3,13 @@ import spirotherapie from '../images/spirothérapie.jpg'
 
 function Spirotherapie() {
 	return (
-		<div className="mt-10 p-2  flex flex-col items-center">
-		<h1 className="font-bold text-xl text-center">SPIROTHERAPIE</h1>
-		<div className="mt-10 flex">
-		<img className="w-90 ml-5" src={spirotherapie}></img>
+		<div className="mt-10 p-2  flex justify-around items-center">
+			<img className="w-90 ml-5 rounded-3xl" src={spirotherapie}></img>
+			<div className="">
+		<h1 className="font-bold text-4xl text-center mt-10">SPIROTHERAPIE</h1>
+		<div className="mt-10 mb-20 flex">
 			<div className='max-w-xl'>
-		<p className="w-90">
+		<p className="">
 		La spirothérapie  s ‘inspire des pranayamas , 
 		les techniques respiratoires  du yoga de prana “respiration “ et Yama “ 
 		maîtrise” mais aussi d’autres méthodes issues d’autres cultures 
@@ -40,7 +41,7 @@ function Spirotherapie() {
 <p>Une séance de respiration profonde entraîne une dépense calorique équivalente  
 	à celle d’une balade de 20 minutes à vélo </p>
 	</div>
-
+	</div>
 </div>
 	</div>
 	)
