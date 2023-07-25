@@ -5,7 +5,7 @@ function Services() {
 	return (
 		<div className="mt-10 p-2 flex flex-col items-center">
 			<h1 className="font-bold text-4xl text-center">SERVICES</h1>
-			<div className="flex items-center">
+			<div className="flex items-center mt-20">
 			<ul className="">
 				<li>En visio et en ligne</li>
 				<li>A domicile à Biarritz</li>
