@@ -3,17 +3,17 @@ import Home from "./pages/Home"
 import Spirotherapie from "./pages/Spirotherapie"
 import About from "./pages/About"
 import Services from "./pages/Services"
-import { Routes, Link, Route } from 'react-router-dom'
+import { Routes, NavLink, Route } from 'react-router-dom'
 
 
 function App() {
 	return (
 	  <div>
 		<div className="flex gap-2 justify-center ">
-		<Link className="hover:underline" to="/">Accueil</Link>
-		<Link className="hover:underline" to="/spirotherapie">La spirothérapie</Link>
-		<Link className="hover:underline" to="/about">Mon itinéraire</Link>
-		<Link className="hover:underline" to="/services">Mes services</Link>
+		<NavLink className={({ isActive }) => (isActive ? "link-active" : "link")}  to="/" >Accueil</NavLink>
+		<NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/spirotherapie">La spirothérapie</NavLink>
+		<NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/about">Mon itinéraire</NavLink>
+		<NavLink className={({ isActive }) => (isActive ? "link-active" : "link")} to="/services">Mes services</NavLink>
 		</div>
 		<Routes>
 			<Route exact path ="/" element={<Home />}/>

@@ -3,7 +3,7 @@ import spirotherapie from '../images/spirothérapie.jpg'
 
 function Spirotherapie() {
 	return (
-		<div className="mt-10 p-2  flex justify-around items-center">
+		<div className="mt-10 p-2  flex justify-evenly items-center">
 			<img className="w-90 ml-5 rounded-3xl" src={spirotherapie}></img>
 			<div className="">
 		<h1 className="font-bold text-4xl text-center mt-10">SPIROTHERAPIE</h1>

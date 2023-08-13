@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+  .link:hover {
+	color: #588c7e;
+	text-decoration: underline;
+	text-decoration-color: #588c7e;
+	text-decoration-thickness: 3px;
+  }
+  
+  /* Specific styles for active links */
+  .link-active {
+	color: #588c7e;
+	text-decoration: underline;
+	text-decoration-color: #588c7e;
+	text-decoration-thickness: 3px;
+  }
